@@ -1,3 +1,8 @@
+.body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINxSwctFIwRquM1b7qGfKLiWb132lHuPKBg&s);
+}
+
+
 .container{
     display: flex;
     align-items: center;
@@ -11,4 +16,25 @@
     justify-content: center;
     flex-direction: column;
 
+}
+
+.itens{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.itensu{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.how{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
 }
