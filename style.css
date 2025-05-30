@@ -1,8 +1,3 @@
-.body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINxSwctFIwRquM1b7qGfKLiWb132lHuPKBg&s);
-}
-
-
 .container{
     display: flex;
     align-items: center;
@@ -36,5 +31,14 @@
     padding: 10px;
     border: 2px solid black;
     border-radius: 20px;
+    margin: 10px;
+}
+
+.doisinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
     margin: 10px;
 }

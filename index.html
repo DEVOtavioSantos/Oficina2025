@@ -10,7 +10,7 @@
     <div class="container">
         <h1 style="color: red;">Otavio Morais Santoss</h1>
     
-         <p  style="color: #46646f;">um</p>
+        <p  style="color: #46646f;">um</p>
         <p style="color: #46646f;">dois</p>
         <p style="color: #46646f;">três</p>
         
@@ -20,12 +20,30 @@
     
         
         <a href="pagina2.html">Receitinha top</a>
-
+        
+        <div class="doisinput">
+            <label for="campo1">Nome Usuário</label>
+            <input id="campo1" type="text" placeholder="Nome de usuario">
+            <label for="campo2">Senha</label>
+            <input type="text" id="campo2" placeholder="Digita a senha">
+            <label for="campo3">Data de nascimento</label>
+            <input type="date" id="campo3">
+            <h4>Qual é o melhor game</h4>
+            <div class="checklist" style=" display: flex; justify-content: space-between;">
+                <input type="radio" name="game" id="game1">
+                <label for="game1">GTA V</label>
+                <input type="radio" name="game" id="game2" checked>
+                <label for="game2">GTA SAN ANDREAS</label>
+            </div>
+            
+        </div>
+        
+        
         <button id="1">Eai</button>
-    
+        
     </div>
     
-    <script></script>
+    <script src="app.js"></script>
 
     
 </body>
