@@ -1,9 +1,6 @@
-document.getElementById('1').addEventListener('click', function()
+document.getElementById('botao').addEventListener('click', function()
 {
-    alert('Eai meu patrão');
+    console.log("Erro em baixar assinatura");
+    prompt("abc");
 });
 
-document.getElementById('campo4').addEventListener('click', function()
-{
-    alert("Assim sim meu patrão");
-});
