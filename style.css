@@ -47,6 +47,26 @@ table, th, td{
     border: 2px solid black;
     border-collapse: collapse;
     padding: 15px;
+    margin: 10px;
     
 }
 
+input{
+    border-radius: 20px;
+}
+
+.botao{
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    color:white;
+    box-shadow: 4px 5px 5px black;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s all;
+}
